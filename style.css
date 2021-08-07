@@ -1,14 +1,13 @@
-html, body {
+ body {
     max-width: 100%;
-    background-color: E5E5E5;
-    overflow: hidden;
+    background-color: #E5E5E5;
+    overflow-x: hidden;
 }
 
 
 .container{
     background-color: #FFF9F4;
     height:715px;
-    margin:20px;
 
 }
 
@@ -21,7 +20,7 @@ html, body {
 }
 .navbar ul  a{ 
     position:relative;
-  left:350px;
+  left:150px;
   margin:35px;
 font-family: 'Roboto', sans-serif;
 font-style: normal;
@@ -43,7 +42,7 @@ background: #FFF9F4;
 }
 .d-flex .content{
     position:absolute;
-    left:800px;
+    left:500px;
    padding:20px;
     background: #FFF9F4;
     width:500px;
@@ -93,7 +92,7 @@ color: #FFFFFF;
 .casual {
   position:absolute;
 top: 843px;
-left: 350px;
+left: 120px;
 
 }
 .col .card{
@@ -103,7 +102,7 @@ top: 50px;
 background: #FFFFFF;
 box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
 border-radius: 20px;
-align-content: space-between;
+
 }
 .col .card-img-top {
  width: 311px;
@@ -134,7 +133,6 @@ color: #3E3E3E;
 }
 .card-body span{
     font-family: 'Roboto', sans-serif;   
-font-family: Roboto;
 font-style: normal;
 font-weight: 900;
 font-size: 36px;
@@ -152,34 +150,32 @@ color: #FA804C;
 .formal {
     position:absolute;
   top: 1700px;
-  left: 350px;
-  
+  left: 120px;
+
   }
   .foot {
     position:absolute;
   top: 2400px;
-  left: 350px;
+  left: 120px;
   width:100vw ;
- 
-  }
-  .foot .details {
-      width:50vw;
-     
+  background: white;
     
   }
+ 
  .foot .card {
-    background: #FFFFFF;
     box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
     border-radius: 20px;
-    align-content: space-between;
-  }
+    background: white;
+    
+  
+ }
   .details .card-title{
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
     line-height: 28px;
-    
+
     color: #363958;
   }
   .details .card-text{
@@ -198,10 +194,107 @@ color: #FA804C;
 }
 .foot .xml{
     position:absolute;
-    width:50vw;
+    width:10vw;
     left:600px;
 }
 /* Mobile */
-@media screen {
-    
+@media only screen and (max-width: 480px) {
+    .container{
+        
+        width: 415px;
+        height: 920px;
+        left: -30px;
+        top: 0px;
+        align-items: center;
+    }
+    .navbar-brand{
+        position: relative;
+       left: 16px;
+       top: 27px;
+    }
+    .navbar ul  a{ 
+        position: relative;
+       left: 329px;
+       top: 28px;
+      
+        
+    }
+    .d-flex .content{
+        position:absolute;
+          width:295px;
+        height: 176px;
+        left: 17px;
+        
+
+}
+.d-flex .logo img{
+    position:absolute;
+    width: 315.51px;
+    height: 290px;
+    left: 17.19px;
+    top: 400px;
+
+}
+.casual {
+ font-family: 'Roboto', sans-serif;  
+font-size: 36px;
+line-height: 36px;
+top: 1000px;
+color: #363958;
+}
+.col .card{
+    width: 343px;
+    height: 550px;
+    top: 50px;
+    right:50px;
+   align-items: center;
+    }
+    .formal{
+        top: 2800px;
+    }
+    .formal .col .card{
+        width: 343px;
+        height: 550px;
+        top: 50px;
+        right:50px;
+       align-items: center;
+        }
+        .foot .xml{
+            top: 2100px;
+            left:-220px;
+            width: 50%;
+           height: 300px;
+           object-fit: cover;
+         object-position: bottom;
+         
+        }
+        .foot.details{
+            display: none;
+        }
+        .foot .card {
+            top:2500px;
+           width:316px;
+          height:100px;
+          
+               }
+        .details .img-fluid{
+            position:absolute;
+            top:5px;
+            filter: drop-shadow(0px 30px 10px rgba(0, 0, 0, 0.15));
+            width:15px;
+            left:140px;
+        }
+        .details .card-title{
+            position:absolute;
+            font-size: 14px;
+            top:15px;
+            left:80px;
+        }
+        .details .card-text{
+            position:absolute;
+            top:40px;
+            font-size: 15px;
+           
+        }
+       
 }
