@@ -1,0 +1,207 @@
+html, body {
+    max-width: 100%;
+    background-color: E5E5E5;
+    overflow: hidden;
+}
+
+
+.container{
+    background-color: #FFF9F4;
+    height:715px;
+    margin:20px;
+
+}
+
+
+.navbar ul li {
+    display:inline-block;
+   
+
+
+}
+.navbar ul  a{ 
+    position:relative;
+  left:350px;
+  margin:35px;
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: #111010;
+background: #FFF9F4;
+}
+ .d-flex{
+    position:absolute ;
+    top:179px;
+  background: #FFF9F4;
+   
+}
+.d-flex .logo img{
+    position:absolute;
+    background: #FFF9F4;
+}
+.d-flex .content{
+    position:absolute;
+    left:800px;
+   padding:20px;
+    background: #FFF9F4;
+    width:500px;
+   
+}
+.content h1{
+    font-family: 'Bebas Neue', cursive;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 80px;
+    
+    color:black;
+    
+}
+.content h1 span{
+    color: #FA804C;
+
+}
+.content p{
+    font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+color: #3E3E3E;
+position: absolute;
+width: 357px;
+height: 52px;
+
+}
+.content .btn{
+    padding:10px;
+    border-radius: 20px;
+    position: absolute;
+    top:250px;
+    width: 170px;
+    height:60px;
+    font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: #FFFFFF;
+
+}
+.casual {
+  position:absolute;
+top: 843px;
+left: 350px;
+
+}
+.col .card{
+width: 370px;
+height: 550px;
+top: 50px;
+background: #FFFFFF;
+box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+border-radius: 20px;
+align-content: space-between;
+}
+.col .card-img-top {
+ width: 311px;
+height: 311px;
+left: 200px;
+top: 862px;
+filter: drop-shadow(0px 30px 10px rgba(0, 0, 0, 0.15));
+
+}
+.col .card-title{
+    font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 28px;
+
+color: #363958;
+}
+.col .card-text{
+    font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+color: #3E3E3E;
+
+
+}
+.card-body span{
+    font-family: 'Roboto', sans-serif;   
+font-family: Roboto;
+font-style: normal;
+font-weight: 900;
+font-size: 36px;
+line-height: 42px;
+
+color: #FA804C;
+
+
+}
+.card-body a{
+    display:flex;
+    float :right;
+}
+
+.formal {
+    position:absolute;
+  top: 1700px;
+  left: 350px;
+  
+  }
+  .foot {
+    position:absolute;
+  top: 2400px;
+  left: 350px;
+  width:100vw ;
+ 
+  }
+  .foot .details {
+      width:50vw;
+     
+    
+  }
+ .foot .card {
+    background: #FFFFFF;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    align-content: space-between;
+  }
+  .details .card-title{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    
+    color: #363958;
+  }
+  .details .card-text{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #3E3E3E;
+}
+.details .img-fluid{
+    position:absolute;
+    top:10px;
+    left:15px;
+    filter: drop-shadow(0px 30px 10px rgba(0, 0, 0, 0.15));
+}
+.foot .xml{
+    position:absolute;
+    width:50vw;
+    left:600px;
+}
+/* Mobile */
+@media screen {
+    
+}
